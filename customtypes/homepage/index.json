@@ -1,0 +1,38 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "format": "page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO and Metadata": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": ""
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
